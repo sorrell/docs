@@ -70,30 +70,10 @@
       ]
     },
     {
-      "group": "API Reference",
+      "group": "API Documentation",
       "pages": [
-          {
-            "group": "Check Calls",
-            "pages": [
-              "api-reference/endpoint/check-calls/create-a-new-check-call"
-            ]
-          },
-          {
-            "group": "Endpoints",
-            "pages": [
-              "api-reference/endpoint/endpoints/import-loads-from-ascend-tms-web"
-            ]
-          },
-          {
-            "group": "Loads",
-            "pages": [
-              "api-reference/endpoint/loads/get-all-loads",
-              "api-reference/endpoint/loads/create-new-load",
-              "api-reference/endpoint/loads/get-load-",
-              "api-reference/endpoint/loads/update-load-"
-            ]
-          }
-        ]
+        "api-reference/introduction"
+      ]
     }
      ],
   "footerSocials": {
