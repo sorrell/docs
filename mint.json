@@ -1,6 +1,7 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "LoadPartner",
+  "openapi": "api-reference/openapi.yaml",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -69,23 +70,35 @@
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "API Reference",
       "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
+          {
+            "group": "Check Calls",
+            "pages": [
+              "api-reference/endpoint/check-calls/create-a-new-check-call"
+            ]
+          },
+          {
+            "group": "Endpoints",
+            "pages": [
+              "api-reference/endpoint/endpoints/import-loads-from-ascend-tms-web"
+            ]
+          },
+          {
+            "group": "Loads",
+            "pages": [
+              "api-reference/endpoint/loads/get-all-loads",
+              "api-reference/endpoint/loads/create-new-load",
+              "api-reference/endpoint/loads/get-load-",
+              "api-reference/endpoint/loads/update-load-"
+            ]
+          }
+        ]
     }
-  ],
+     ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
+    "x": "https://x.com/loadpartner",
     "github": "https://github.com/mintlify",
     "linkedin": "https://www.linkedin.com/company/mintsearch"
   }
-}
+ }
